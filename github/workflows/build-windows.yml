@@ -1,0 +1,54 @@
+name: Build Windows Installer
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Versionsnummer aus dem Git-Tag übernehmen
+        if: startsWith(github.ref, 'refs/tags/')
+        shell: bash
+        run: npm version --no-git-tag-version "${GITHUB_REF_NAME#v}"
+
+      - name: Regressionstests
+        run: npm test
+
+      - name: Frontend bauen
+        run: npm run build
+
+      - name: Native Module gegen Electrons ABI neu bauen
+        run: npm run rebuild:electron
+
+      - name: Installer bauen und an GitHub Release anhängen
+        if: startsWith(github.ref, 'refs/tags/')
+        run: npx electron-builder --win --publish always
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Installer bauen (nur Artefakt, kein Tag-Push)
+        if: ${{ !startsWith(github.ref, 'refs/tags/') }}
+        run: npx electron-builder --win --publish never
+
+      - name: Installer als Workflow-Artefakt hochladen
+        if: ${{ !startsWith(github.ref, 'refs/tags/') }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: erschliessung-windows-installer
+          path: release/*.exe
