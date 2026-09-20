@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@napi-rs/canvas": "^1.0.2",
-    "better-sqlite3": "^11.10.0",
+    "better-sqlite3": "^13.0.3",
     "cors": "^2.8.5",
     "docx": "^9.0.2",
     "express": "^4.21.0",
