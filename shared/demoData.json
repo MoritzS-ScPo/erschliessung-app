@@ -1,0 +1,55 @@
+{
+  "dateiname": "Demo_Rasenberger_Briefe.txt",
+  "volltext": "Berlin-Johannisthal, den 30. Januar 1944\nMeine liebe Grete, mein lieber Johannes, gestern Nacht war wieder Fliegeralarm, fast drei Stunden saßen wir im Keller der Gemeinde. Die Fenster der Sakristei sind zersprungen, aber das Pfarrhaus steht noch. Macht Euch um mich keine Sorgen, ich bin wohlauf.\n\nHeute Vormittag musste ich ein Kind aus der Bäckerstraße beerdigen, das bei dem Angriff vor zwei Wochen ums Leben kam. Die Mutter stand die ganze Zeit stumm am Grab. Ich finde kaum Worte für solche Stunden, und doch muss man welche finden.\n\nIch denke in diesen Tagen oft an den Sommer 1919 zurück, als ich Deine Mutter kennenlernte, mein lieber Johannes. Es war beim Gemeindefest in Köpenick, sie stand am Kuchenstand und lachte über etwas, das ich gar nicht gehört hatte, und ich habe mich sofort in dieses Lachen verliebt. Drei Wochen später bin ich sonntags nach dem Gottesdienst zwei Stunden zu Fuß gegangen, nur um sie wiederzusehen.\n\nDie Lebensmittelkarten reichen kaum noch bis zum Monatsende. Frau Lehmann von nebenan hat uns heute etwas Mehl abgegeben, dafür bin ich sehr dankbar. Kartoffeln gibt es noch, aber das Brot wird knapper.\n\nJohannes, wie geht es Dir in der Schule? Schreib mir, ob der neue Lehrer streng ist. Ich hoffe, Du hilfst Deiner Mutter, wo Du kannst, solange ich hier in Berlin bleiben muss.\n\nBerlin-Johannisthal, den 4. Februar 1944\nWieder eine schwere Nacht. Der Angriff traf diesmal die Straße hinter der Kirche, zwei Häuser sind eingestürzt. Ich habe bis in den frühen Morgen geholfen, Verschüttete zu bergen. Man gewöhnt sich nicht daran, auch wenn es inzwischen fast jede Woche vorkommt.\n\nAm Nachmittag musste ich erneut zu einer Beerdigung, diesmal einen alten Mann aus unserer Gemeinde, Herrn Wachter, der schon lange krank war. Seine Frau bat mich, ein Gedicht vorzulesen, das er selbst geschrieben hatte. Es war sehr bewegend.\n\nEs ist bitterkalt geworden, der Frost hat die Fensterscheiben mit Eisblumen bedeckt. In der Dunkelkammer, die ich mir im Keller eingerichtet habe, entwickle ich abends manchmal ein paar Fotografien, das lenkt mich ab von allem.\n\nGrete, ich hoffe, es geht Dir und Johannes gut in Sicherheit bei Deiner Schwester. Sowie es die Umstände erlauben, komme ich Euch besuchen. Bis dahin behalte ich Euch beide fest in meinem Herzen.\n\nBerlin-Johannisthal, den 15. Februar 1944\nHeute nur kurz: Es geht mir gut, die Gemeinde hält zusammen, so gut es eben geht. Ich freue mich auf Euren nächsten Brief. In Gedanken bin ich immer bei Euch.\nEuer Kurt",
+  "form": {
+    "signatur": "BR-DEMO 1",
+    "verweisSignaturen": "",
+    "autor": {
+      "vorname": "Kurt",
+      "nachname": "Rasenberger",
+      "geburtsdatum": "",
+      "geburtsort": "",
+      "sterbedatum": "",
+      "sterbeort": "",
+      "geschlecht": "m"
+    },
+    "altersgruppe": "40–65",
+    "weitereAngaben": { "beruf": "Pfarrer", "wohnort": "Berlin-Johannisthal", "region": "Berlin" },
+    "dokument": {
+      "gattung": "Brief",
+      "geschriebenVon": "1944-01-30",
+      "geschriebenBis": "1944-02-15",
+      "hauptsaechlichVon": "1944-01-30",
+      "hauptsaechlichBis": "1944-02-15",
+      "anzahlSeiten": "6",
+      "anzahlBriefe": "3",
+      "anzahlKarten": "",
+      "titel": "",
+      "beschriebeneZeitVon": "",
+      "beschriebeneZeitBis": ""
+    },
+    "art": ["Familie", "Briefwechsel (hin und her)"],
+    "enthaeltWeiteres": { "Fotos": 0, "Zeichnungen": 0, "Zeitungsausschnitte": 0, "Karten": 0, "Geschichten": 0, "Gedichte": 0 },
+    "geschriebenIn": ["Handschrift", "Sütterlin"],
+    "sprachenAusserDeutsch": "",
+    "dialekt": "",
+    "lesbarkeit": ["gut / gut lesbare Handschrift"],
+    "themen": ["Familie", "Ehe & Partnerschaft", "historische Ereignisse", "Religion", "Ernährung", "Hobbies"],
+    "zeitlicheEinordnung": ["Zweiter Weltkrieg", "NS-Diktatur"],
+    "rechercheNoetig": true,
+    "rechercheNotizen": "Wer ist Herr Wachter? Genaue Adresse der Gemeinde in Johannisthal prüfen.",
+    "anregungen": "Gut geeignet für Veranstaltung zum Thema Alltag im Bombenkrieg.",
+    "erschlossenDurch": "",
+    "erschliessungsdatum": ""
+  },
+  "inhaltsangaben": [
+    { "text": "Beschreibt eine Bombennacht und den Zustand des Pfarrhauses", "refs": [1] },
+    { "text": "Beerdigt ein Kind, das bei einem Luftangriff ums Leben kam", "refs": [2] },
+    { "text": "Bespricht das Kennenlernen seiner Frau 1919 beim Gemeindefest in Köpenick", "refs": [3] },
+    { "text": "Schildert die knappe Lebensmittelversorgung und Nachbarschaftshilfe", "refs": [4] },
+    { "text": "Fragt seinen Sohn Johannes nach der Schule", "refs": [5] },
+    { "text": "Berichtet von einem weiteren Angriff und der Bergung Verschütteter", "refs": [6] },
+    { "text": "Beerdigt Herrn Wachter und liest dessen eigenes Gedicht vor", "refs": [7] },
+    { "text": "Erwähnt sein Hobby, die Fotografie in der eigenen Dunkelkammer", "refs": [8] }
+  ]
+}

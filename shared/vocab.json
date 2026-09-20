@@ -1,0 +1,64 @@
+{
+  "gattungen": ["Brief", "Tagebuch", "Erinnerungstext"],
+  "geschlecht": [
+    { "value": "m", "label": "männlich" },
+    { "value": "w", "label": "weiblich" },
+    { "value": "d", "label": "divers" }
+  ],
+  "altersgruppen": ["bis 10", "10–20", "20–40", "40–65", "65–80", "über 80"],
+  "artNachGattung": {
+    "Brief": [
+      "Liebesbriefe", "Feldpost", "Familie", "Geschäft", "Behörde", "Arzt",
+      "Postkarten", "Gefangenenbriefe", "Auswanderer", "Kinderlandverschickung",
+      "Briefwechsel (hin und her)", "Einzelne Briefe (in eine Richtung)"
+    ],
+    "Tagebuch": ["Freie Form", "Kalenderform", "Kriegstagebuch", "Reisetagebuch"],
+    "Erinnerungstext": [
+      "Autobiografisch (Autor schreibt über sich selbst)",
+      "Biografisch (Autor schreibt über andere)",
+      "Kindheit", "Schulzeit", "Kriegserinnerungen", "Gefangenschaft",
+      "Arbeit", "Historische Ereignisse"
+    ]
+  },
+  "enthaeltWeiteres": ["Fotos", "Zeichnungen", "Zeitungsausschnitte", "Karten", "Geschichten", "Gedichte"],
+  "beziehungen": [
+    "Vater", "Mutter", "Ehefrau", "Ehemann", "Sohn", "Tochter", "Bruder", "Schwester",
+    "Großvater", "Großmutter", "Onkel", "Tante", "Freund/in", "Kolleg/in",
+    "Vorgesetzte/r", "Sonstige"
+  ],
+  "geschriebenIn": ["Handschrift", "Sütterlin", "Schreibmaschine", "Computer", "gedruckt", "Steno"],
+  "lesbarkeit": [
+    "gut / gut lesbare Handschrift", "geht so", "schlecht / schlecht lesbare Handschrift",
+    "sauber geschrieben", "sollte abgeschrieben werden", "viele Abkürzungen / individuelle Schrift"
+  ],
+  "themen": [
+    "Wohnen", "Schule & Studium", "Ausbildung & Beruf", "Ehe & Partnerschaft", "Freundschaft",
+    "Homosexualität", "Reisen", "Natur", "Tiere", "Hobbies", "Freizeit", "Gedichte", "Religion",
+    "Kinder", "Kindheit", "Jugend", "Familie", "Alter", "Ernährung", "Krankheit", "Behinderung",
+    "Corona", "DDR", "BRD", "Partei", "Stasi", "Heimat", "Auswanderung", "Flucht",
+    "Kinderlandverschickung", "Juden", "Rassismus", "Armee", "historische Ereignisse",
+    "historische Personen", "Wende", "Migration", "Arbeitslosigkeit"
+  ],
+  "zeitlicheEinordnung": [
+    "vor 1870", "Kaiserreich", "Erster Weltkrieg", "Weimarer Republik", "NS-Diktatur", "Holocaust",
+    "Zweiter Weltkrieg", "Nachkriegszeit", "DDR", "50er–80er Jahre", "90er", "2000er", "2010er",
+    "2020er", "Corona-Zeit (2020–2023)"
+  ],
+  "zeitlicheEinordnungJahre": [
+    { "label": "vor 1870", "bis": 1869 },
+    { "label": "Kaiserreich", "von": 1871, "bis": 1918 },
+    { "label": "Erster Weltkrieg", "von": 1914, "bis": 1918 },
+    { "label": "Weimarer Republik", "von": 1919, "bis": 1933 },
+    { "label": "NS-Diktatur", "von": 1933, "bis": 1945 },
+    { "label": "Holocaust", "von": 1933, "bis": 1945 },
+    { "label": "Zweiter Weltkrieg", "von": 1939, "bis": 1945 },
+    { "label": "Nachkriegszeit", "von": 1945, "bis": 1949 },
+    { "label": "DDR", "von": 1949, "bis": 1990 },
+    { "label": "50er–80er Jahre", "von": 1950, "bis": 1989 },
+    { "label": "90er", "von": 1990, "bis": 1999 },
+    { "label": "2000er", "von": 2000, "bis": 2009 },
+    { "label": "2010er", "von": 2010, "bis": 2019 },
+    { "label": "2020er", "von": 2020, "bis": 2029 },
+    { "label": "Corona-Zeit (2020–2023)", "von": 2020, "bis": 2023 }
+  ]
+}
