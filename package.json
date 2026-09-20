@@ -57,6 +57,12 @@
       "node_modules/@napi-rs/**/*",
       "server/tessdata/**/*"
     ],
+    "publish": {
+      "provider": "github",
+      "owner": "MoritzS-ScPo",
+      "repo": "erschliessung-app",
+      "releaseType": "release"
+    },
     "win": {
       "target": "nsis"
     },
